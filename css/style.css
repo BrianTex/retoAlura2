@@ -357,3 +357,77 @@ a{
     width: 25px;
     height: 25px;
 }
+@media screen and (max-width:768px){
+    .headerPrincipalContacto{
+        margin-top: 40px;
+    }
+    .headerPrincipal .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .skill{
+        margin: 10px;
+    }
+    .hobbie{
+        margin: 10px;
+    }
+    .formacion-tarjeta{
+        margin: 10px;
+        width: 200px;
+    }
+    .formacion-img{
+        height: 120;
+        width: 100px;
+    }
+    .formacion-img2{
+        height: 225;
+        width: 150px;
+    }
+    .proyectos-tarjeta{
+        height: 300px;
+        width: 600px;
+    }
+    .proyectos-img{
+        width: 500px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:414px) {
+    .headerPrincipal-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerPrincipalNav-link{
+        display: flex;
+    }
+    .sobreMi-container{
+        flex-direction: column;
+        text-align: center;
+        border-style: solid dashed ;
+    }
+    .skills-container{
+        border-style: solid dashed;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skill{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .hobbie-container{
+        border-style: solid dashed;
+    }
+    .hobbies{
+        flex-direction: column;
+    }
+    .hobbie{
+        display: flex;
+        margin-top: 10px;
+    }
+}
