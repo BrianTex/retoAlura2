@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/897b5b4e6e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>BianTex Dev</title>
@@ -24,7 +23,8 @@
                     <li><a class="headerPrincipalNav-link" href="#skill">Skills</a></li>
                     <li><a class="headerPrincipalNav-link" href="#hobbie">Hobbies</a></li>
                     <li><a class="headerPrincipalNav-link" href="#formacion">Formación</a></li>
-                    <li><a class="headerPrincipalNav-link" href="">Proyectos</a></li>
+                    <li><a class="headerPrincipalNav-link" href="#proyectos">Proyectos</a></li>
+                    <li><a class="headerPrincipalNav-link" href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <h2 class="headerPrincipalContacto">Contacto: brianxd.tx@gmail.com</h2>
@@ -46,7 +46,7 @@
 
     <section class="sobreMi-principal" id="sobreMi">
         <div class="sobreMi-container">
-            <img src="/img/1080405.png" alt="foto mia" class="sobreMi-img">
+            <img src="/img/fotoMia.jpg" alt="foto mia" class="sobreMi-img">
             <p class="sobreMi-descripcion">
                 Hola, soy Brian Texon desarrollador front-end y técnico programador, soy mexicano tengo 18 años y
                 actualmente me encuentro cursando la licenciatura de Redes y servicios de cómputo en la universidad
@@ -122,25 +122,85 @@
             <h1 class="formacion-titulo">Formación académica</h1>
             <div class="formacion-tarjetas">
                 <div class="formacion-tarjeta">
-                    <img src="" alt="" class="formacion-img">
-                    <h2 class="formacion-subtitulo"></h2>
-                    <h2 class="formacion-annio"></h2>
+                    <img src="img/Flor_con_uv_sin_fondo.png" alt="" class="formacion-img">
+                    <h2 class="formacion-subtitulo">Universidad veracruzana - En curso</h2>
+                    <h2 class="formacion-annio">2022-2026</h2>
                 </div>
-
-                <div class="formacion-tarjeta">
-                    <img src="" alt="" class="formacion-img">
-                    <h2 class="formacion-subtitulo"></h2>
-                    <h2 class="formacion-annio"></h2>
+                
+                <div class="formacion-tarjetas">
+                    <div class="formacion-tarjeta">
+                        <img src="img/cbtis165.jpg" alt="" class="formacion-img2">
+                        <h2 class="formacion-subtitulo">CBTIS 165 - Terminado</h2>
+                        <h2 class="formacion-annio">2019-2022</h2>
+                    </div>
                 </div>
-
-                <div class="formacion-tarjeta">
-                    <img src="" alt="" class="formacion-img">
-                    <h2 class="formacion-subtitulo"></h2>
-                    <h2 class="formacion-annio"></h2>
+                
+                <div class="formacion-tarjetas">
+                    <div class="formacion-tarjeta">
+                        <img src="img/alura.png" alt="" class="formacion-img">
+                        <h2 class="formacion-subtitulo">Alura Latam Next Education - En curso</h2>
+                        <h2 class="formacion-annio">2022-2023</h2>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="proyectos-principal" id="proyectos">
+        <div class="proyectos-container">
+            <h1 class="proyectos-titulo">Proyectos</h1>
+            <div class="proyectos-tarjetas">
+                <div class="proyectos-tarjetas">
+                    <div class="proyectos-tarjeta">
+                        <img src="img/proyecto1.jpg" alt="" class="proyectos-img">
+                        <h2 class="proyectos-subtitulo">Encriptador de texto</h2>
+                        <div class="proyectos-boton"><a href="https://github.com/BrianTex/retoAlura">Repositorio</a></div>
+                        <div class="proyectos-boton"><a href="https://briantex.github.io/retoAlura/">Probar</a></div>
+                    </div>
+                </div>
+
+                <div class="proyectos-tarjetas">
+                    <div class="proyectos-tarjeta">
+                        <img src="img/proyecto2.jpg" alt="" class="proyectos-img">
+                        <h2 class="proyectos-subtitulo">Portafolio</h2>
+                        <div class="proyectos-boton"><a href="https://github.com/BrianTex/retoAlura">Repositorio</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto-principal" id="contacto">
+        <div class="contacto-container">
+            <h1 class="contacto-titulo">Contacto</h1>
+            <form class="contacto-form">
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="5" id="mensaje" class="input-padron" required></textarea>
+
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer-principal">
+        <div class="footer-container">
+            <p class="footer-nombre">Hecho por BrianTexDev</p>
+            <P class="footer-nombre">Reto Alura</P>
+            <h2 class="footer-nombre">Contacto: brianxd.tx@gmail.com</h2>
+
+            <a href="https://github.com/BrianTex"><img src="img/github.svg" class="footer-img" alt=""></a>
+            <a href="https://www.linkedin.com/in/brian-texon-dev/"><img src="img/linkedin.svg" class="footer-img" alt=""></a>
+        </div>
+    </footer>
 
 </body>
 
