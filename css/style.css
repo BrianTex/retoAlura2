@@ -29,7 +29,7 @@ body{
    margin: .5rem;
    color:#FFF;
    text-decoration: none;
-   border: 2px solid #0822e2;
+   border: 2px solid #08b5ed;
    transition: all .1s ease-in-out;
 }
 .headerPrincipalNav-link:hover{
@@ -61,7 +61,7 @@ body{
     font-size: large;
     text-decoration: none;
     color: #FFF;
-    border: 2px solid #0822e2;
+    border: 2px solid #08b5ed;
     transition: all .1s ease-in-out;
 }
 .acercaDeMi-link:hover{
@@ -90,3 +90,33 @@ body{
     font-size: x-large;
     font-family: 'Sono', sans-serif;
 }
+.skills-container{
+    background-color: #0821e211;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px #FFF;
+    border-style: dashed solid;
+    margin: 1rem;
+}
+.skills-titulo{
+    margin: 1rem;
+    color: #FFF;
+    font-size: xx-large;
+    font-family: 'Sono', sans-serif;
+}
+.skills{
+    display: flex;
+    margin: 1rem;
+}
+.skill{
+    display: flex;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+
