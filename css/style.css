@@ -39,7 +39,7 @@ body{
 .acercaDeMi-container{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     align-items: center;
     justify-content: center;
     padding: 1rem;
@@ -55,12 +55,10 @@ body{
 .acercaDeMi-Titulo{
     width: 100%;
     font-size: xx-large;
-}
-.acercaDeMi-descripcion{
-    width: 100%;
-    text-align: justify;
+    text-align: center;
 }
 .acercaDeMi-link{
+    font-size: large;
     text-decoration: none;
     color: #FFF;
     border: 2px solid #0822e2;
@@ -70,8 +68,25 @@ body{
     border: 3px solid  #FFF;
     border-style: dashed solid;
 }
-.acercaDeMi-img{
+.sobreMi-container{
+    background-color: #0821e211;
+    padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px #FFF;
+    border-style: dashed solid;
+    margin: 1rem;
+}
+.sobreMi-img{
     width: 300px;
     height: 300px;
+    margin: 1rem;
     border-radius: 50%;
+}
+.sobreMi-descripcion{
+    color:#FFF;
+    margin: 2rem;
+    font-size: x-large;
+    font-family: 'Sono', sans-serif;
 }
