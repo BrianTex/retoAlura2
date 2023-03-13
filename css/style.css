@@ -386,6 +386,7 @@ a{
         width: 150px;
     }
     .proyectos-tarjeta{
+        margin-right: 0px;
         height: 300px;
         width: 600px;
     }
@@ -429,5 +430,21 @@ a{
     .hobbie{
         display: flex;
         margin-top: 10px;
+    }
+    .formacion-tarjetas{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .proyectos-tarjeta{
+        width: 300px;
+        height: 150px;
+    }
+    .proyectos-img{
+        height: 0px;
+        width: 0px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
     }
 }
